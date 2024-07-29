@@ -93,7 +93,7 @@ public class stack {
         if (isEmpty()) {
             System.out.println("Stack is empty.");
         } else {
-            for (int i = top; i >= 0; i--) {
+            for (int i =0; i <= top; i++) {
                 System.out.print(arr[i] + " ");
             }
             System.out.println();
